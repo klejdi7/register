@@ -1,0 +1,19 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: 'Be Vietnam', sans-serif;
+
+}
+.login100-form-title {
+  background-color: lightgray;
+  width: 100%;
+  padding: 5px;
+  font-size: 30px;
+}

@@ -1,0 +1,19 @@
+.table input {
+  width: 40px;
+
+}
+table {
+    font-size:20px;
+}
+
+th {
+  height: 70px;
+  width: 170px;
+    /* font-size: 50px; */
+}
+
+td {
+  height: 70px;
+  width: 170px;
+
+}

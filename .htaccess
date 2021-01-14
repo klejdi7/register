@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^nxenes/([0-9]+)?$ teach/student_info.php?id_nxenes=$1
+RewriteRule notfound?$ manage/error404.php
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

@@ -1,0 +1,13 @@
+<tr>
+  <th scope="row">1</th>
+  <?php
+  foreach($subject_id as $row){
+  foreach($su as $subject){
+    // foreach($nots as $rows){
+      if($subject['id_lende'] == $row['id_lende']){ ?>
+    <td scope="col"><?php echo $subject['n1'] .",". $subject['n2'] ?></td>
+  <?php }else{ ?>
+  <td scope="col">-</td>
+<?php }}} ?>
+
+</tr>
